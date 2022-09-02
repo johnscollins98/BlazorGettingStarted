@@ -27,7 +27,9 @@ else
                     <td>@employee.FirstName</td>
                     <td>@employee.LastName</td>
                     <td>
-                      <a href="@($"employeedetail/{employee.EmployeeId}")" class="btn btn-primary table-btn">Detail</a>
+                      <a href="@($"employeedetail/{employee.EmployeeId}")" class="btn btn-primary table-btn">
+                        <i class="fas fa-info-circle"></i>
+                      </a>
                     </td>
                 </tr>
             }

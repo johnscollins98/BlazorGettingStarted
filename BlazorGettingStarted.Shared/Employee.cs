@@ -24,7 +24,7 @@ namespace BethanysPieShopHRM.Shared
         public string Comment { get; set; }
         public DateTime? JoinedDate { get; set; }
         public DateTime? ExitDate { get; set; }
-        
+
         public int JobCategoryId { get; set; }
         public JobCategory JobCategory { get; set; }
 

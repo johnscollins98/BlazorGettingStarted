@@ -14,26 +14,14 @@
             "problemMatcher": "$msCompile"
         },
         {
-            "label": "publish",
+            "label": "build-api",
             "command": "dotnet",
             "type": "process",
             "args": [
-                "publish",
-                "${workspaceFolder}/BlazorGettingStarted/BlazorGettingStarted.csproj",
+                "build",
+                "${workspaceFolder}/BlazorGettingStarted.Api/BlazorGettingStarted.Api.csproj",
                 "/property:GenerateFullPaths=true",
                 "/consoleloggerparameters:NoSummary"
-            ],
-            "problemMatcher": "$msCompile"
-        },
-        {
-            "label": "watch",
-            "command": "dotnet",
-            "type": "process",
-            "args": [
-                "watch",
-                "run",
-                "--project",
-                "${workspaceFolder}/BlazorGettingStarted/BlazorGettingStarted.csproj"
             ],
             "problemMatcher": "$msCompile"
         }

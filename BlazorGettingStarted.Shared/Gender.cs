@@ -1,4 +1,4 @@
-﻿namespace BethanysPieShopHRM.Shared
+﻿namespace BlazorGettingStarted.Shared
 {
     public enum Gender
     {

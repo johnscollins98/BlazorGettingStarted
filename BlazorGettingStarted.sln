@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlazorGettingStarted", "Bla
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlazorGettingStarted.Shared", "BlazorGettingStarted.Shared\BlazorGettingStarted.Shared.csproj", "{90FF07CE-61F0-4619-B860-7E93D842922A}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlazorGettingStarted.Api", "BlazorGettingStarted.Api\BlazorGettingStarted.Api.csproj", "{FCB27D75-42CD-4652-8EF3-2E51921981B1}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{90FF07CE-61F0-4619-B860-7E93D842922A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{90FF07CE-61F0-4619-B860-7E93D842922A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{90FF07CE-61F0-4619-B860-7E93D842922A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FCB27D75-42CD-4652-8EF3-2E51921981B1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FCB27D75-42CD-4652-8EF3-2E51921981B1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FCB27D75-42CD-4652-8EF3-2E51921981B1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FCB27D75-42CD-4652-8EF3-2E51921981B1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

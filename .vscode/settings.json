@@ -5,5 +5,9 @@
     "omnisharp.organizeImportsOnFormat": true,
     "prettier.tabWidth": 4,
     "csharp.referencesCodeLens.enabled": false,
-    "editor.formatOnSave": true
+    "editor.formatOnSave": true,
+    "files.exclude": {
+        "**/bin": true,
+        "**/obj": true
+    }
 }

@@ -1,4 +1,4 @@
-﻿using BethanysPieShopHRM.Shared;
+﻿using BlazorGettingStarted.Shared;
 
 namespace BlazorGettingStarted.Pages
 {

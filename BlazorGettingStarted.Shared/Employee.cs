@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace BethanysPieShopHRM.Shared
+namespace BlazorGettingStarted.Shared
 {
     public class Employee
     {

@@ -11,7 +11,7 @@
             // Use IntelliSense to find out which attributes exist for C# debugging
             // Use hover for the description of the existing attributes
             // For further information visit https://github.com/OmniSharp/omnisharp-vscode/blob/master/debugger-launchjson.md
-            "name": ".NET Core Launch (web)",
+            "name": "Launch and Debug API",
             "type": "coreclr",
             "request": "launch",
             "preLaunchTask": "build-api",
@@ -38,7 +38,7 @@
             "name": "Launch",
             "configurations": [
                 "Launch and Debug Standalone Blazor WebAssembly App",
-                ".NET Core Launch (web)"
+                "Launch and Debug API"
             ]
         }
     ]

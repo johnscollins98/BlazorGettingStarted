@@ -7,17 +7,21 @@
     <section class="employee-edit">
         <h1 class="page-title">Details for @Employee.FirstName @Employee.LastName</h1>
 
-        <EditForm Model="@Employee" OnValidSubmit="@HandleValidSubmit" OnInvalidSubmit=@HandleInvalidSubmit>
+        <EditForm Model="@Employee" OnValidSubmit="@HandleValidSubmit" OnInvalidSubmit="@HandleInvalidSubmit" >
+            <DataAnnotationsValidator />
+            <ValidationSummary></ValidationSummary>
             <div class="form-group row">
                 <label for="lastName" class="col-sm-3">Last name: </label>
                 <InputText id="lastName" @bind-Value="@Employee.LastName" class="form-control col-sm-8"
                 placeholder="Enter last name"></InputText>
+                <ValidationMessage class="offset-sm-3 col-sm-8" For="@(() => Employee.LastName)" />
             </div>
 
             <div class="form-group row">
                 <label for="firstName" class="col-sm-3">First name: </label>
                 <InputText id="firstName" class="form-control col-sm-8" @bind-Value="@Employee.FirstName"
                 placeholder="Enter first name"></InputText>
+                <ValidationMessage class="offset-sm-3 col-sm-8" For="@(() => Employee.FirstName)" />
             </div>
 
 
@@ -31,6 +35,7 @@
                 <label for="email" class="col-sm-3">Email: </label>
                 <InputText id="email" class="form-control col-sm-8" @bind-Value="@Employee.Email" placeholder="Enter email">
                 </InputText>
+                <ValidationMessage class="offset-sm-3 col-sm-8" For="@(() => Employee.Email)" />
             </div>
 
             <div class="form-group row">
@@ -129,6 +134,7 @@
                 <label for="comment" class="col-sm-3">Comment: </label>
                 <InputTextArea id="comment" class="form-control col-sm-8" @bind-Value="@Employee.Comment"
                     placeholder="Enter comment"></InputTextArea>
+                <ValidationMessage class="offset-sm-3 col-sm-8" For="@(() => Employee.Comment)" />
             </div>
             <button type="submit" class="btn btn-primary edit-btn mt-2">Save Employee</button>
 
